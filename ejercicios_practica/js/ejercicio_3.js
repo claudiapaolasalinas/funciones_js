@@ -23,4 +23,16 @@ Los tres nombres ingresados se deberán imprimir en consola
 */
 
 // Definir y crear la función antes de esta llamada
-generarInvitados();
+
+function generarInvitados() {
+
+    let invitado1 = String(prompt("Ingrese el nombre del primer invitado:"));
+    let invitado2 = String(prompt("Ingrese el nombre del segundo invitado:"));
+    let invitado3 = String(prompt("Ingrese el nombre del tercer invitado:"));
+
+    console.log(`El nombre del primer invitado es: ${invitado1}`);
+    console.log(`El nombre del segundo invitado es: ${invitado2}`);
+    console.log(`El nombre del tercer invitado es: ${invitado3}`);
+}
+
+generarInvitados()
